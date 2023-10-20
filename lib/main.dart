@@ -108,7 +108,7 @@ class _secondState extends State<second> with TickerProviderStateMixin {
         Container(height: 400,width: 400,
           child: ListView(
             children: [
-              ListTile(title: Text("RAJA"),onTap: (){
+              ListTile(title: Text("Ganapathi"),onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>third()));
               },),
               SizedBox(height: 20,),
